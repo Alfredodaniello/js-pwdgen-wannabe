@@ -8,10 +8,10 @@ const color = prompt("quale è il tuo colore preferito?");
 //Chiedo un numero all'utente
 const number =prompt("Dimmi un numero");
 //Trasformo la stringa in un numero
-const numberParse = parseInt(number)
+const numberParse = parseInt(number);
 //OUTPUT
 //Ottengo il mio numero modificato
-const numberSum =(numberParse + 23)
+const numberSum =(numberParse + 23);
 //Ottengo la mia password
 const password = (`${name}${lastName}${color}${numberSum}`);
 //Controllo la mia password
